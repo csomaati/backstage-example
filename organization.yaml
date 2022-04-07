@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: hun
+  description: Hungarian team
+spec:
+  type: team
+  profile:
+    displayName: Hungarian Team
+    email: info@leannet.eu
+    picture: https://leannet.hu/img/logo-skewed-2.png
+  members: [szdavid, megyo]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: szdavid
+spec:
+  profile:
+    displayName: Szabo David
+    email: szabo@leannet.eu
+    picture: https://leannet.hu/img/team/David.png 
+  memberOf: [hun]
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: megyo
+spec:
+  profile:
+    displayName: Megyesi Peter
+    email: megyesi@leannet.eu
+    picture: https://leannet.hu/img/team/Peti.png 
+  memberOf: [hun]

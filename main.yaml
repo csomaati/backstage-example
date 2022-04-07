@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: main-location
+spec:
+  type: file
+  targets:
+    - ./organization.yaml
