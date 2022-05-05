@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-axle-weight-operator
+  description: Axle weigh operator
+spec:
+  type: service
+  lifecycle: production
+  owner: group:hun
+  system: backend
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - axle-weight-api

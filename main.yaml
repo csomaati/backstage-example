@@ -5,3 +5,4 @@ metadata:
 spec:
   targets:
     - organization.yaml
+    - app-axle-weight-operator.yaml
