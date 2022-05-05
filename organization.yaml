@@ -12,6 +12,7 @@ spec:
   members: [szdavid, megyo]
   children: []
 
+
 ---
 
 apiVersion: backstage.io/v1alpha1
