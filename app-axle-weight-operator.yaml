@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: app-axle-weight-operator
   description: Axle weigh operator
+  annotations:
+    gitlab.com/project-id: '22737057'
 spec:
   type: service
   lifecycle: production
