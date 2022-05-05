@@ -4,4 +4,4 @@ metadata:
   name: main-location
 spec:
   targets:
-    - ./organization.yaml
+    - organization.yaml
