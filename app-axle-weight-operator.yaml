@@ -6,6 +6,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
+  owner: group:hun
   system: backend
   dependsOn:
     - resource:default/artists-db

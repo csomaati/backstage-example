@@ -22,7 +22,7 @@ spec:
     displayName: Szabo David
     email: szabo@leannet.eu
     picture: https://leannet.hu/img/team/David.png 
-  memberOf: [hun]
+  memberOf: [group:hun]
 
 ---
 
@@ -35,4 +35,4 @@ spec:
     displayName: Megyesi Peter
     email: megyesi@leannet.eu
     picture: https://leannet.hu/img/team/Peti.png 
-  memberOf: [hun]
+  memberOf: [group:hun]
